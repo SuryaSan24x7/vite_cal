@@ -66,7 +66,7 @@ function App() {
     } else if (value === 'cube') {
       setInput('Math.pow(');
     } else if (value === 'cbrt') {
-      setInput('Math.cbrt(');
+      setInput(input*input*input);
     } else if (value === 'log10') {
       setInput('Math.log10(');
     } else if (value === 'ln') {
